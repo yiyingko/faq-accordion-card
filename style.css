@@ -94,8 +94,6 @@ p {
 
 }
 
-
-
 .accordion-label {
     cursor: pointer;
     display: flex;
@@ -141,6 +139,8 @@ p {
 ul {
     list-style: none;
 }
+
+
 
 /*footer*/
 .attribution {
