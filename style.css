@@ -89,6 +89,10 @@ p {
 
 }
 
+li{
+    list-style: none;
+}
+
 .accordion-label {
     cursor: pointer;
     display: flex;
