@@ -133,6 +133,9 @@ p {
 
 }
 
+ul {
+    list-style: none;
+}
 
 /*footer*/
 .attribution {
