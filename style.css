@@ -66,6 +66,11 @@ h1 {
     font-size: 2rem;
 }
 
+h2 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
 .line {
     width: 400px;
     height: 1px;
