@@ -1,3 +1,7 @@
+<!--
+  Legacy project (2023)
+  Original styles preserved; class names lightly annotated for readability
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,39 +22,47 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="container">
-      <div class="main">
-        <div class="laptop">
-          <div>
+    <main class="faq container">
+      <div class="faq__card main">
+        <div class="faq__media laptop">
+          <div class="faq__box-wrap">
             <img
-              class="box"
+              class="faq__box box"
               src="images/illustration-box-desktop.svg"
               alt="box"
             />
           </div>
         </div>
-        <ul class="text">
-          <li><h1>FAQ</h1></li>
-          <li class="accordion">
-            <section class="accordion-item">
-              <div class="accordion-label">
-                <h2 class="question">How many team members can I invite?</h2>
-                <span></span>
+
+        <ul class="faq__content text">
+          <li><h1 class="faq__title">FAQ</h1></li>
+
+          <li class="faq__list accordion">
+            <section class="faq__item accordion-item">
+              <div class="faq__trigger accordion-label">
+                <h2 class="faq__question question">
+                  How many team members can I invite?
+                </h2>
+                <span class="faq__icon"></span>
               </div>
-              <div class="accordion-content">
+              <div class="faq__panel accordion-content">
                 <p>
                   You can invite up to 2 additional users on the Free plan.There
                   is no limit on team members for the Premium plan.
                 </p>
               </div>
             </section>
-            <div class="line"></div>
-            <section class="accordion-item">
-              <div class="accordion-label">
-                <h2 class="question">What is the maximum file upload size?</h2>
-                <span></span>
+
+            <div class="faq__divider line"></div>
+
+            <section class="faq__item accordion-item">
+              <div class="faq__trigger accordion-label">
+                <h2 class="faq__question question">
+                  What is the maximum file upload size?
+                </h2>
+                <span class="faq__icon"></span>
               </div>
-              <div class="accordion-content">
+              <div class="faq__panel accordion-content">
                 <p>
                   No more than 2GB. All files in your account must fit your
                   allotted storage space.
@@ -58,14 +70,16 @@
               </div>
             </section>
 
-            <div class="line"></div>
+            <div class="faq__divider line"></div>
 
-            <section class="accordion-item">
-              <div class="accordion-label">
-                <h2 class="question">How do I reset my password?</h2>
-                <span></span>
+            <section class="faq__item accordion-item">
+              <div class="faq__trigger accordion-label">
+                <h2 class="faq__question question">
+                  How do I reset my password?
+                </h2>
+                <span class="faq__icon"></span>
               </div>
-              <div class="accordion-content">
+              <div class="faq__panel accordion-content">
                 <p>
                   Click “Forgot password” from the login page or “Change
                   password” from your profile page. A reset link will be emailed
@@ -74,14 +88,16 @@
               </div>
             </section>
 
-            <div class="line"></div>
+            <div class="faq__divider line"></div>
 
-            <section class="accordion-item">
-              <div class="accordion-label">
-                <h2 class="question">Can I cancel my subscription?</h2>
-                <span></span>
+            <section class="faq__item accordion-item">
+              <div class="faq__trigger accordion-label">
+                <h2 class="faq__question question">
+                  Can I cancel my subscription?
+                </h2>
+                <span class="faq__icon"></span>
               </div>
-              <div class="accordion-content">
+              <div class="faq__panel accordion-content">
                 <p>
                   Yes! Send us a message and we’ll process your request no
                   questions asked.
@@ -89,21 +105,24 @@
               </div>
             </section>
 
-            <div class="line"></div>
+            <div class="faq__divider line"></div>
 
-            <section class="accordion-item">
-              <div class="accordion-label">
-                <h2 class="question">Do you provide additional support?</h2>
-                <span></span>
+            <section class="faq__item accordion-item">
+              <div class="faq__trigger accordion-label">
+                <h2 class="faq__question question">
+                  Do you provide additional support?
+                </h2>
+                <span class="faq__icon"></span>
               </div>
-              <div class="accordion-content">
+              <div class="faq__panel accordion-content">
                 <p>
                   Chat and email support is available 24/7. Phone lines are open
                   during normal business hours.
                 </p>
               </div>
             </section>
-            <div class="line"></div>
+
+            <div class="faq__divider line"></div>
           </li>
         </ul>
       </div>
